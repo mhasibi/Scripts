@@ -1,3 +1,5 @@
+#This script will take in a number , n, and generate n elements from Fibonacci series.
+
 print "Please enter n:"
 nterms = int(raw_input())
 
