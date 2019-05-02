@@ -28,5 +28,4 @@ class Solution(object):
         k=k%(len(nums))
         if len(nums)<2 or not k:
              return
-        elif k<len(nums):
-            nums[:] = nums[-k:] + nums[:len(nums)-k]
+        nums[:] = nums[-k:] + nums[:len(nums)-k]
